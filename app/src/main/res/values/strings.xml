@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EstudoAndroid</string>
+    <string name="title_activity_toggle">ToggleActivity</string>
+    <string name="toggle_on">On</string>
+    <string name="toggle_off">Off</string>
+    <string name="btn_display">Display</string>
+</resources>
