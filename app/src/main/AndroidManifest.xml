@@ -19,6 +19,10 @@
         <activity
             android:name=".ToggleActivity"
             android:label="@string/title_activity_toggle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditTextActivity"
+            android:label="@string/title_activity_edit_text"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -5,4 +5,8 @@
     <string name="toggle_off">Off</string>
     <string name="btn_display">Display</string>
     <string name="btn_home_toggle">Toggle</string>
+    <string name="title_activity_edit_text">EditTextActivity</string>
+    <string name="example_edittext">Example showing EditText</string>
+    <string name="show_the_text">Show the Text</string>
+    <string name="enter_text">text changes</string>
 </resources>
