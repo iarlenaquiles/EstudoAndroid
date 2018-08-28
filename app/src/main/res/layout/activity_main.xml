@@ -12,5 +12,10 @@
         android:layout_height="wrap_content"
         android:text="@string/btn_home_toggle" />
 
+    <Button
+        android:id="@+id/btnEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Text" />
 
 </android.support.constraint.ConstraintLayout>
