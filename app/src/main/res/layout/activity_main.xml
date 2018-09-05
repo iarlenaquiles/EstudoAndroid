@@ -5,16 +5,29 @@
     android:layout_width="match_parent"
     tools:context=".MainActivity"
     android:layout_height="fill_parent">
-    <Button
-        android:id="@+id/btnToggle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_home_toggle" />
 
-    <Button
-        android:id="@+id/btnEditText"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Edit Text" />
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnToggle"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_home_toggle" />
+
+        <Button
+            android:id="@+id/btnEditText"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="Edit Text" />
+
+        <Button
+            android:id="@+id/btnList"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="Lists" />
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

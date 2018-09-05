@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button btnToggle;
     private Button btnEditText;
+    private Button btnList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         addListenerOnButtonToggle();
         addListenerOnButtonEditText();
+        addListenerOnButtonList();
+
     }
 
     public void addListenerOnButtonToggle() {
@@ -40,5 +43,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(it);
             }
         });
+    }
+
+    public void addListenerOnButtonList() {
+        btnList = (Button) findViewById(R.id.btnList);
+
+        btnList.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, ListActivity.class);
+                startActivity(it);
+            }
+        });
+
     }
 }
