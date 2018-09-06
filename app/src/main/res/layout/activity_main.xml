@@ -28,6 +28,12 @@
             android:layout_height="wrap_content"
             android:text="Lists" />
 
+        <Button
+            android:id="@+id/btnAutoComplete"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="Auto Complete" />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

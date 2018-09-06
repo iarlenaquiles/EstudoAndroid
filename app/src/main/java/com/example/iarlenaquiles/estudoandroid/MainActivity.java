@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnToggle;
     private Button btnEditText;
     private Button btnList;
+    private Button btnAutoComplete;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         addListenerOnButtonToggle();
         addListenerOnButtonEditText();
         addListenerOnButtonList();
+        addListenerOnButtonAutoComplete();
 
     }
 
@@ -55,5 +57,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    public void addListenerOnButtonAutoComplete() {
+        btnAutoComplete = (Button) findViewById(R.id.btnAutoComplete);
+
+        btnAutoComplete.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, AutoCompleteActivity.class);
+                startActivity(it);
+            }
+        });
     }
 }
