@@ -34,6 +34,12 @@
             android:layout_height="wrap_content"
             android:text="Auto Complete" />
 
+        <Button
+            android:id="@+id/btnSpinner"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="Spinner" />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnEditText;
     private Button btnList;
     private Button btnAutoComplete;
+    private Button btnSpinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         addListenerOnButtonEditText();
         addListenerOnButtonList();
         addListenerOnButtonAutoComplete();
+        addListenerOnButtonSpinner();
 
     }
 
@@ -65,6 +67,17 @@ public class MainActivity extends AppCompatActivity {
         btnAutoComplete.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent it = new Intent(MainActivity.this, AutoCompleteActivity.class);
+                startActivity(it);
+            }
+        });
+    }
+
+    public void addListenerOnButtonSpinner() {
+        btnSpinner = (Button) findViewById(R.id.btnSpinner);
+
+        btnSpinner.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, SpinnerActivity.class);
                 startActivity(it);
             }
         });
