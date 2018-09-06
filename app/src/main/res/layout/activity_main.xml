@@ -40,6 +40,12 @@
             android:layout_height="wrap_content"
             android:text="Spinner" />
 
+        <Button
+            android:id="@+id/btnRadio"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="Radio" />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

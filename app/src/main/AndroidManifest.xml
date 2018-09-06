@@ -35,6 +35,10 @@
         <activity
             android:name=".SpinnerActivity"
             android:label="@string/title_activity_spinner"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RadioActivity"
+            android:label="@string/title_activity_radio"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnList;
     private Button btnAutoComplete;
     private Button btnSpinner;
+    private Button btnRadio;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         addListenerOnButtonList();
         addListenerOnButtonAutoComplete();
         addListenerOnButtonSpinner();
+        addListenerOnButtonRadio();
 
     }
 
@@ -78,6 +80,17 @@ public class MainActivity extends AppCompatActivity {
         btnSpinner.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent it = new Intent(MainActivity.this, SpinnerActivity.class);
+                startActivity(it);
+            }
+        });
+    }
+
+    public void addListenerOnButtonRadio() {
+        btnRadio = (Button) findViewById(R.id.btnRadio);
+
+        btnRadio.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, RadioActivity.class);
                 startActivity(it);
             }
         });
