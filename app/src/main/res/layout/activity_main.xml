@@ -46,6 +46,12 @@
             android:layout_height="wrap_content"
             android:text="Radio" />
 
+        <Button
+            android:id="@+id/btnOption"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="Option Menu" />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
