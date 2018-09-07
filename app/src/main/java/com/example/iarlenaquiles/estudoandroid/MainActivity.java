@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnAutoComplete;
     private Button btnSpinner;
     private Button btnRadio;
-    private Button btnOption;
+    private Button btnOption, btnLongPress;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         addListenerOnButtonSpinner();
         addListenerOnButtonRadio();
         addListenerOnButtonOption();
+        addListenerOnButtonLongPress();
 
     }
 
@@ -112,6 +113,17 @@ public class MainActivity extends AppCompatActivity {
         btnOption.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent it = new Intent(MainActivity.this, RadioActivity.class);
+                startActivity(it);
+            }
+        });
+    }
+
+    public void addListenerOnButtonLongPress(){
+        btnLongPress = (Button) findViewById(R.id.btnLongPress);
+
+        btnLongPress.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, LongPressActivity.class);
                 startActivity(it);
             }
         });

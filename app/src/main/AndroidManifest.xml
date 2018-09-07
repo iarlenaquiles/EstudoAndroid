@@ -43,6 +43,10 @@
         <activity
             android:name=".DropDownActivity"
             android:label="@string/title_activity_drop_down"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LongPressActivity"
+            android:label="@string/title_activity_long_press"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

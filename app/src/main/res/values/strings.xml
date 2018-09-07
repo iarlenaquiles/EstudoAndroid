@@ -31,5 +31,6 @@
     <string name="title_activity_menu">MenuActivity</string>
     <string name="title_activity_options_menu">OptionsMenuActivity</string>
     <string name="title_activity_drop_down">DropDownActivity</string>
+    <string name="title_activity_long_press">LongPressActivity</string>
 
 </resources>
