@@ -39,5 +39,15 @@
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_grid">GridActivity</string>
+    <string name="title_activity_som">SomActivity</string>
+
+    <string name="animal_dog">Cachorro</string>
+    <string name="animal_cat">Gato</string>
+    <string name="animal_horse">Cavalo</string>
+    <string name="animal_cow">Vaca</string>
+    <string name="animal_pig">Porco</string>
+    <string name="animal_rooster">Galo</string>
+    <string name="animal_lion">Leão</string>
+    <string name="animal_turkey">Peru</string>
 
 </resources>

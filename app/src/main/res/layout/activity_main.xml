@@ -64,6 +64,11 @@
             android:layout_height="wrap_content"
             android:text="Grid" />
 
+        <Button
+            android:id="@+id/btnSom"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="Som" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

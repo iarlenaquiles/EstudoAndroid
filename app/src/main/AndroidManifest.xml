@@ -51,6 +51,10 @@
         <activity
             android:name=".GridActivity"
             android:label="@string/title_activity_grid"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SomActivity"
+            android:label="@string/title_activity_som"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
