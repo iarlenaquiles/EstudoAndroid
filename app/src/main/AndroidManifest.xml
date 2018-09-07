@@ -40,6 +40,10 @@
             android:name=".RadioActivity"
             android:label="@string/title_activity_radio"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DropDownActivity"
+            android:label="@string/title_activity_drop_down"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

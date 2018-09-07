@@ -30,5 +30,6 @@
     <string name="title_activity_radio">RadioActivity</string>
     <string name="title_activity_menu">MenuActivity</string>
     <string name="title_activity_options_menu">OptionsMenuActivity</string>
+    <string name="title_activity_drop_down">DropDownActivity</string>
 
 </resources>
