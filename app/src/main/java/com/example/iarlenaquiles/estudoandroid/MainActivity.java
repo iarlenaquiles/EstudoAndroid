@@ -11,13 +11,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btnToggle;
-    private Button btnEditText;
-    private Button btnList;
-    private Button btnAutoComplete;
-    private Button btnSpinner;
-    private Button btnRadio;
-    private Button btnOption, btnLongPress;
+    private Button btnToggle, btnEditText, btnList, btnAutoComplete, btnSpinner, btnRadio, btnOption, btnLongPress, btnGrid;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         addListenerOnButtonRadio();
         addListenerOnButtonOption();
         addListenerOnButtonLongPress();
+        addListenerOnButtonGrid();
 
     }
 
@@ -124,6 +119,17 @@ public class MainActivity extends AppCompatActivity {
         btnLongPress.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent it = new Intent(MainActivity.this, LongPressActivity.class);
+                startActivity(it);
+            }
+        });
+    }
+
+    public void addListenerOnButtonGrid(){
+        btnGrid = (Button) findViewById(R.id.btnGrid);
+
+        btnGrid.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, GridActivity.class);
                 startActivity(it);
             }
         });

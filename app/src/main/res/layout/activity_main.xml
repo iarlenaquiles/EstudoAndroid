@@ -58,6 +58,12 @@
             android:layout_height="wrap_content"
             android:text="Long Press" />
 
+        <Button
+            android:id="@+id/btnGrid"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="Grid" />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
